@@ -11,11 +11,11 @@ void main() {
 
     System.out.print("당신의 이름은?:");
     name = keyboard.nextLine();
-    System.out.printf("%s님의 나이는 ?:", name);
+    System.out.printf("%s님의 나이는 ?:", name, age);
     age = keyboard.nextInt();
-    System.out.printf("%s님의 키는?:", height);
+    System.out.printf("%s님의 키는?:", name, height);
     height = keyboard.nextDouble();
-    System.out.printf("%s님의 몸무게는?:", weight);
+    System.out.printf("%s님의 몸무게는?:", name, weight);
     weight = keyboard.nextFloat();
 
     System.out.printf("%s님의 나이는 %d살 입니다.\n", name, age);
