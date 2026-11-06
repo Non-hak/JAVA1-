@@ -10,13 +10,13 @@ void main() {
     float weight;
 
     System.out.print("당신의 이름은?:");
-    name = keyboard.nextLine();
+    name = Keyboard.nextLine();
     System.out.printf("%s님의 나이는 ?:", name, age);
-    age = keyboard.nextInt();
+    age = Keyboard.nextInt();
     System.out.printf("%s님의 키는?:", name, height);
-    height = keyboard.nextDouble();
+    height = Keyboard.nextDouble();
     System.out.printf("%s님의 몸무게는?:", name, weight);
-    weight = keyboard.nextFloat();
+    weight = Keyboard.nextFloat();
 
     System.out.printf("%s님의 나이는 %d살 입니다.\n", name, age);
     System.out.printf("%s님의 키는 %.1f cm 입니다.\n", name, height);
